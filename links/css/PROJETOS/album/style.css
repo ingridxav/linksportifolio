@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Neuton:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+/* 
+#182838
+#233041
+#212438
+#0B1C29
+#2E4A63
+*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: linear-gradient(90deg,  #223C3F 0%, #09272C 100%);
+    background-color: #09272C;
+    width: 100%;
+    height: 100vh;
+}
+
+.naveg {
+    margin: 0 5rem;
+    position: relative;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+/*===========================================================*/
+
+.nome_header {
+    color: #948973;
+    font-size: 4rem;
+    width: 10em;
+    height: auto;
+    float: left;
+    margin-top: 2rem;
+    font-family: 'Neuton', sans-serif;
+    font-weight: 300;
+}
+
+.nav_header {
+    color: #948973;
+    font-size: 8rem;
+    text-decoration: none;
+    text-align: end;
+}
+
+.circulo {
+    font-weight: bold;
+    font-size: 7rem;
+    vertical-align: middle;
+}
+
+.listacab > a {
+    color: #948973;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-family: 'Neuton', sans-serif;
+    font-weight: 300;
+}
+
+.listacab > a:hover {
+    color: #D6CEBE;
+    text-decoration: underline;
+}
+
+.listacab {
+    padding: 1rem .5rem;
+    display: inline-block;
+}
+
+/*===========================================================*/
+
+.topoprincipal {
+    display: flex;
+}
+
+.album {
+    width: 80rem;
+    height: 100rem;
+    display: flex;
+    justify-content: center;
+}
+
+.capaAlbum {
+    margin-top: 3rem;
+    height: 85vh;
+    
+}
+
+.capaAlbum > img {
+    border: .5rem solid;
+    border-image: linear-gradient(90deg, #7B6E4E, #fff, #7B6E4E ) 30;
+
+}
+
+figcaption > p {
+    font-size: 2rem;
+    text-align: center;
+    color: #948973;
+    margin-top: 1.5rem;
+}
+
+.musicas {
+    width: 80rem;
+    height: 100rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    line-height: 4rem;
+}
+
+.lista_musica > li > a {
+    text-decoration: none;
+    color: #948973;
+    font-size: 3.3rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    transition: .2s;
+    
+}
+
+.lista_musica > li > a:hover {
+    background-color: #D6CEBE;
+    border-radius: 5rem;
+    color: #09272C;
+}
+
+.lista_musica > li {
+    list-style-type: none;
+}
+
+.play {
+    width: 68rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play2 {
+    width: 68rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seta_esquerda {
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #D6CEBE inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    border-radius: 10%;
+    margin-right: 2rem;
+    transform: rotate(45deg);
+    transition: .2s;
+}
+
+.seta_esquerda:hover {
+    box-shadow: 2px -2px 0 1px #3F5559 inset;
+}
+
+.seta_meio {
+        width: 0; 
+        height: 0; 
+        border-top: 2rem solid transparent;
+        border-bottom: 2rem solid transparent;
+        border-left: 3rem solid #D6CEBE;
+        border-radius: 10%;
+        transition: .2s;
+}
+
+.seta_meio:hover {
+    border-left: 3rem solid #3F5559;
+}
+
+.seta_direita {
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #D6CEBE inset;
+    border: solid transparent;
+    border-radius: 10%;
+    border-width: 0 0 2px 2px;
+    margin-left: 1rem;
+    transform: rotate(225deg);
+    transition: .2s;
+}
+
+.seta_direita:hover {
+    box-shadow: 2px -2px 0 1px #3F5559 inset;
+}
+
+.linha {
+    background-color: #D6CEBE;
+    width: 60rem;
+    height: .3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.linha2 {
+    background-color: #3F5559;
+    width: 25rem;
+    height: .4rem;
+}
+
+.circulo2 {
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: #D6CEBE;
+    border-radius: 100%;
+}
+
+.p1, .p2 {
+    color: #948973;
+    margin: 0 2rem;
+    font-size: 3rem;
+    font-family: 'Neuton', sans-serif;
+    padding-bottom: 1rem;
+}
+
+
+
+/*===========================================================*/
+
+
+.arvores_back1 {
+    position: relative;
+    height: 85rem;
+}
+
+.arvore1 {
+    position: absolute;
+    opacity: 10%;
+    bottom: 0;
+    right: -26.4rem;
+}
+
+
+/*===========================================================*/
+
+.principal {
+    background: linear-gradient(90deg,  #223C3F 0%, #09272C 100%);
+    background-color: #09272C;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+    display: inline-block;
+    position: relative;
+}
+
+.membros {
+    width: 40vw;
+    height: 70vh;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    color: #948973;
+    font-family: 'Inter', sans-serif;
+}
+
+.memb {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.membros > figure > img {
+    border: .5rem solid;
+    border-image: linear-gradient(90deg, #7B6E4E, #fff, #7B6E4E ) 30;
+}
+
+/*===========================================================*/
+
+.arvores_back2 {
+    position: relative;
+    height: 85rem;
+}
+
+.arvore2 {
+    position: absolute;
+    opacity: 10%;
+    bottom: -3.7rem;
+    right: -35rem;
+}
+
+.sobre {
+    width: 60vw;
+    height: 98vh;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15rem;
+    color: #948973;
+    font-size: 16rem;
+}
+
+.banner {
+    margin-top: 5rem;
+    width: 45vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner > figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > figure > figcaption {
+    font-size: 2rem;
+    width: 74rem;
+    margin-top: 2rem;
+}
+
+.banner > figure > img {
+    border: .5rem solid;
+    border-image: linear-gradient(90deg, #7B6E4E, #fff, #7B6E4E ) 30;
+}
+
+.discografia {
+    width: 40vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Neuton', sans-serif ;
+}
+
+.disco {
+    transform: translate(-10rem, 0);
+}
+
+
+
+.discografia > .disco > h2 {
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    text-align: center;
+    transform: translate(10rem, 0);
+    z-index: 1;
+}
+
+/*===========================================================*/
+
+.albuns {
+    background: linear-gradient(90deg,  #223C3F 0%, #09272C 100%);
+    background-color: #09272C;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.albuns2 {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+}
+
+.arvore3 > img {
+    position: absolute;
+    opacity: 10%;
+    bottom: 0;
+}
+
+.albuns3 {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #09272C;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer1 {
+    text-align: center;
+    width: 50rem;
+    height: 13vh;
+}
+
+.footer1 > h3 > a, p {
+    color: #948973;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.footer1 > p {
+    margin-top: 1.5rem;
+}
+
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+h3 > a:hover {
+    color: #D6CEBE;
+    text-decoration: underline;
+}
+
+.footer2 {
+    width: 50rem;
+    height: 13vh;
+    margin-left: 19rem;
+}

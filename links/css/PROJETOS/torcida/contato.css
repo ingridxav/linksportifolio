@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #100f11;
+}
+
+.navegar {
+    background-color: #32243d;
+    color: rgb(255, 255, 255);
+    font-family: 'Russo One';
+    padding-bottom: 50px;
+    border-top: #9a539c solid 5px;
+    position: relative;
+}
+
+.lista {
+    list-style: none;
+    position: absolute;
+    right: 45%;
+    bottom: 15%;
+}
+
+.lista > ul > li > a:hover {
+    color: #9a539c;
+    border-bottom: #9a539c 3px solid;
+    transition: 0.3s;
+}
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    height: 403px;
+}
+
+/*//////////////// REDES SOCIAIS /////////////////*/
+
+.redes_sociais {
+    right: 0;
+    bottom: 50px;
+    position: absolute;
+}
+
+.redes_sociais > ul > li {
+    margin-right: 10px;
+}
+
+/*//////////////// FORMULÁRIO /////////////////*/
+
+.contato {
+    position: relative;
+}
+
+article {
+    height: 900px;
+}
+
+.form {
+    background-color: #232324;
+    border-radius: 20px;
+    padding: 20px 50px;
+    height: 500px;
+    color: white;
+    position: absolute;
+    right: 50%;
+    top: 50px;
+    z-index: 1;
+    transform: translate(50%, 0);
+}
+
+label, input {
+    display: block;
+    border: none;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    padding: 5px;
+    width: 500px;
+}
+
+#mensagem {
+    height: 100px;
+}
+
+#botao {
+    background-color: #9a539c;
+    margin-top: 20px;
+    font-family: 'Russo One';
+    color: white;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 9px #32243d;
+}
+
+#botao:hover {
+    background-color: #7d3e80;
+}
+
+#botao:active {
+    box-shadow: 0 5px #32243d;
+    transform:translateY(5px) ;
+}
+
+.logos {
+    position: relative;
+}
+
+.logo1 {
+    opacity: 0.2;
+    position: absolute;
+    right: 5%;
+    top: 100px;
+}
+
+/*//////////////// FOOTER /////////////////*/
+
+
+.footer1 {
+    background-color: #32243d;
+    position: relative;
+    top: 50px;
+    height: 300px;
+}
+
+.borda-footer {
+    position: absolute;
+    background-color: #9a539c17;
+    width: 100%;
+    height: 4vh;
+}
+
+.footer_1 {
+    position: absolute;
+    color: white;
+    right: 50%;
+    top: 20%;
+    transform: translate(50%, 0);
+}
+
+.footer_1 > a > p {
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+
+}
+
+.footer_1 > a > p:hover {
+    color: #9a539c;
+}
+
+.footer_1 > h2 {
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+}
+
+.aut {
+    font-size: 15px;
+    opacity: 0.5;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}

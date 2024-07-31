@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+table {
+    justify-content: center;
+    display: flex;
+}
+
+
+a {
+    color: #8a99c9;
+}
+
+
+tbody img {
+    border: white 1px solid;
+}
+
+
+tfoot a {
+    cursor: pointer;
+    color: #ced3e4;
+}

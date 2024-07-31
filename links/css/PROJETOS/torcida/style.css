@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* 
+#49243E
+#704264
+#BB8493
+*/
+
+/*
+#a30a00
+#82100a
+#641411
+#491614
+#321514
+#1e1111
+#0d0a0a
+#000000
+*/
+
+body {
+    background-color: #100f11;
+}
+
+.navegar {
+    background-color: #32243d;
+    color: rgb(255, 255, 255);
+    font-family: 'Russo One';
+    padding-bottom: 50px;
+    border-top: #9a539c solid 5px;
+    position: relative;
+}
+
+.lista {
+    list-style: none;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0);
+    bottom: 15%;
+}
+
+.lista > ul > li > a:hover {
+    color: #9a539c;
+    border-bottom: #9a539c 3px solid;
+    transition: 0.3s;
+}
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    height: 403px;
+}
+
+/*//////////////// REDES SOCIAIS /////////////////*/
+
+.redes_sociais {
+    right: 0;
+    bottom: 50px;
+    position: absolute;
+}
+
+.redes_sociais > ul > li {
+    margin-right: 10px;
+}
+
+
+.footer {
+    position: absolute;
+}
+
+.redes_footer {
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/*/////////////////// ARTICLE ////////////////////*/
+
+.principal {
+
+    height: 600px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.imagem_1 > img{
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform:translate(0, -40%);
+}
+
+.texto_1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: #232324;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    width: 40vw;
+    left: 30%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    text-align: end;
+}
+
+.texto_1 > h2 {
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-family: 'Russo One';    
+}
+
+p {
+    font-family: 'Noto Serif';
+}
+
+/*/////////////////// JOGOS ////////////////////*/
+
+.jogo_1 > a > img {
+    width: 600px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.jogo_1 > a > img:hover {
+    width: 620px;
+}
+
+
+
+.jogo_2 > a > img {
+    width: 550px; 
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.jogo_2 > a > img:hover {
+    width: 570px;
+}
+
+
+
+.jogo_3 > a > img {
+    width: 500px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.jogo_3 > a > img:hover {
+    width: 520px;
+}
+
+/*/////////////////// SEGUNDA IMAGEM ////////////////////*/
+
+.imagem_2 {
+    position: relative;
+    height: 700px;
+}
+
+.imagem2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 50px;
+    
+}
+
+/*/////////////////// TORCIDA ////////////////////*/
+
+.torcida {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    background-color: #232324;
+}
+
+.torcida-1 {
+    color: white;
+    position: absolute;
+    top: 5%;
+    font-size: 50px;
+    text-align: center;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+.torcida-2 {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: #9a539c;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.torcida-2 > h2 {
+    margin-bottom: 20px;
+}
+
+.torcida-3 {
+    color: white;
+    position:  absolute;
+    right: 50%;
+    transform: translate(50%, 0);
+    top: 20%;
+    border-bottom: white 1px solid;
+    z-index: 1;
+}
+
+.associe-se > a > h2 {
+    color: white;
+    padding: 0 15px;
+    position: absolute;
+    bottom: 45%;
+    font-size: 30px;
+    text-align: center;
+    right: 54%;
+    border-bottom: white 1px solid;
+    transition: 0.3s;
+}
+
+.associe-se > a > h2:hover {
+    color: #9a539c;
+    border-bottom: #9a539c 2px solid;
+}
+
+.logo-torcida {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    opacity: 0.2;
+}
+
+/*/////////////////// NOTICIAS ////////////////////*/
+
+.noticias {
+    position: relative;
+    height: 700px;
+}
+
+.noticias1 {
+    position: absolute;
+    top: 15vh;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+}
+
+.noticias > h2 {
+    color: white;
+    position: absolute;
+    top: 10%;
+    border-bottom: 2px solid white;
+    font-size: 30px;
+    text-align: center;
+    right: 50%;
+    transform: translate(50%, 50%)
+}
+
+td > a > img {
+    width: 300px;
+    height: 200px;
+    margin: 0 30px;
+    border-radius: 20px;
+}
+
+.noticia > a > img:hover {
+    background: #9a539c;
+    
+}
+
+td > a > h2 {
+    margin: 0 30px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+td > a > h2:hover {
+    color: #9a539c;
+    text-decoration: underline;
+
+}
+
+table {
+    background-color: #232324;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+/*/////////////////// PRODUTOS ////////////////////*/
+
+.produtos {
+    position: relative;
+    height: 900px;
+}
+
+.produto_1 {
+    position: absolute;
+    left: 12vw;
+    top: 20vh;
+}
+
+.produto_2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 15vh;
+
+}
+
+.produto_3 {
+    position: absolute;
+    right: 12vw;
+    top: 20vh;
+    
+}
+
+.compre {
+    color: white;
+    border-radius: 20px;
+    padding: 0 20px;
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.saiba-mais {
+    color: white;
+    border-radius: 20px;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 5%;
+    border-bottom: 2px solid white;
+    font-size: 40px;
+    text-align: center;
+    right: 50%;
+    transform: translate(50%, 50%);
+    transition: 0.3s;
+}
+
+.saiba-mais:hover {
+    color: #9a539c;
+    border: none;
+}
+
+.produtos > figure {
+    background-color: #232324;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px #32243d solid;
+}
+
+.produtos > figure > a > img {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.produtos >figure > a > img:hover {
+    border: 7px solid #232324;
+}
+
+.produtos > figure > figcaption > a > p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.produtos > figure > figcaption > a > h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-size: 27px;
+}
+
+.produtos > figure > figcaption {
+    color: #9a539c;
+}
+
+.produto > img {
+    border-radius: 20px;
+}
+
+/*/////////////////// FOOTER ////////////////////*/
+
+.footer1 {
+    background-color: #32243d;
+    position: relative;
+    top: 50px;
+    height: 300px;
+}
+
+.borda-footer {
+    position: absolute;
+    background-color: #9a539c17;
+    width: 100%;
+    height: 4vh;
+}
+
+.footer_1 {
+    position: absolute;
+    color: white;
+    right: 50%;
+    top: 20%;
+    transform: translate(50%, 0);
+}
+
+.footer_1 > a > p {
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+
+}
+
+.footer_1 > a > p:hover {
+    color: #9a539c;
+}
+
+.footer_1 > h2 {
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+}
+
+.aut {
+    font-size: 15px;
+    opacity: 0.5;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}

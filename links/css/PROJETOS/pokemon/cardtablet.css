@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'nunito', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-color: black;
+    background: url(imagens/fundo.jpeg);
+    background-size: cover;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure > img {
+    width: 21rem;
+}
+
+.logo > img {
+    height: 12rem;
+}
+
+section {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.campo {
+    margin-top: 2rem;
+    width: 25%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.pokemons {
+    width: 220px;
+}
+
+.card1 {
+    background: linear-gradient(90deg,  #2d8383 20%, #03242b 100%);
+    width: 24rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    border: .6rem solid #176f75;
+    outline: 1.2rem solid #c9c9c9;
+    transition: .2s;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    width: 20rem;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+.card1 > .hab {
+    margin-top: 2.6rem;
+}
+
+.habspan {
+    position: absolute;
+    right: 1rem;
+    bottom: 3.3rem;
+    font-size: 2.2rem;
+
+}
+
+figcaption {
+    background: linear-gradient(180deg,  #ffffff 0%, #808181 100%);
+    color: rgb(97, 97, 97);
+    padding: .4rem;
+    width: 24rem;
+    position: absolute;
+    right: -0.5rem;
+    top: 16rem;
+    border-radius: 5rem 5rem 2rem 2rem;
+    text-align: center;
+}
+
+.card1 > figure > img {
+    border: .3rem solid rgb(223, 223, 223);
+    border-radius: .3rem;
+    border-bottom: .5rem solid rgb(223, 223, 223);
+}
+
+.card1 > h2:nth-last-child(1) {
+    text-align: start;
+}
+
+.efeito1 {
+    background: linear-gradient(90deg,  #174141 20%, #1d525e 100%);
+    border-top: .2rem solid rgb(223, 223, 223);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.efeito {
+    border-bottom: .2rem solid rgb(223, 223, 223);
+    width: 100%;
+    padding-bottom:.5rem ;
+    padding-left: .5rem;
+}
+
+.card1:hover {
+    transform: translate(0, -3%);
+}
+
+
+/*---------- CARD 2 ------------*/
+
+.card2 {
+    background: linear-gradient(120deg,  #f1c1e6 20%, #d1629a 100%);
+    width: 24rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    position: relative;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    border: .6rem solid #c475c7;
+    outline: 1.2rem solid #c9c9c9;
+    transition: .2s;
+}
+
+.card2 > figure > img {
+    border: .3rem solid rgb(223, 223, 223);
+    border-radius: .3rem;
+    border-bottom: .5rem solid rgb(223, 223, 223);
+}
+
+.card2 > h2:nth-last-child(1) {
+    text-align: start;
+}
+
+.card2:hover {
+    transform: translate(0, -3%);
+}
+
+.card2 > .hab {
+    margin-top: 2.6rem;
+}
+
+.efeito2 {
+    background: linear-gradient(90deg,  #a85eaa 20%, #f0a7f7 100%);
+    border-top: .2rem solid rgb(223, 223, 223);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+/* ----------------- CARD 3 -------------------*/
+
+.card3 {
+    background: linear-gradient(120deg,  #e4e4e4 20%, #c9c3b7 100%);
+    width: 24rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    position: relative;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+    border: .6rem solid #c0bcb6;
+    outline: 1.2rem solid #c9c9c9;
+    transition: .2s;
+}
+
+.card3 > figure > img {
+    border: .3rem solid rgb(223, 223, 223);
+    border-radius: .3rem;
+    border-bottom: .5rem solid rgb(223, 223, 223);
+}
+
+.card3 > h2:nth-last-child(1) {
+    text-align: start;
+}
+
+.card3:hover {
+    transform: translate(0, -3%);
+}
+
+.card3 > .hab {
+    margin-top: 2.6rem;
+}
+
+.efeito3 {
+    background: linear-gradient(90deg,  #d4c6ac 20%, #c4cdd4 100%);
+    border-top: .2rem solid rgb(223, 223, 223);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 1rem 1rem;
+}
